@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background: linear-gradient(pink, purple) no-repeat ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.word {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightpink;
+    text-transform: uppercase;
+    height: 20vh;
+    font-size: 3em;
+    padding-bottom: 3em;
+}
+
+.word-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: darkorchid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    color: white;
+    position: sticky;
+}
