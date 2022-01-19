@@ -24,5 +24,5 @@ wordButton.addEventListener('click', function() {
     setInterval(() => {
         wordDisplayDiv.innerHTML = ''
         wordButton.disabled = false
-    }, 10000)
+    }, 30000)
 })
