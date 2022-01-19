@@ -21,7 +21,7 @@ const wordButton = document.querySelector('.word-button')
 const enableButton = setInterval(() => {
     wordDisplayDiv.innerHTML = ''
     wordButton.disabled = false
-  }, 5000)
+  }, 30000)
 
 const wordDisplay = () => {
     wordButton.disabled = true
