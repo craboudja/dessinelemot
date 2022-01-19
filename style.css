@@ -22,11 +22,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 20vh;
+    padding-bottom: 3em;
+    font-size: 3em;
     color: lightpink;
     text-transform: uppercase;
-    height: 20vh;
-    font-size: 3em;
-    padding-bottom: 3em;
+    word-wrap: break-word;
 }
 
 .word-button {
@@ -41,5 +42,4 @@ body {
     font-size: 1em;
     letter-spacing: 0.1em;
     color: white;
-    position: sticky;
 }
